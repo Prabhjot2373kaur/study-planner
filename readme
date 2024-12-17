@@ -1,0 +1,73 @@
+Study Planner
+Developers: Khushpreet Kaur and Prabhjot Kaur
+
+Overview:
+
+Study Planner is a React Native application designed to help users manage their study plans efficiently. The app allows users to add, edit, and delete tasks. It supports light and dark modes and ensures task data persistence using local storage.
+
+Featues:
+
+Task Management
+Add tasks with name, description, date, and time.
+Edit task details including status, name, and timing.
+Mark tasks as "done" or "pending."
+Delete tasks easily.
+Dark and Light Mode
+Toggle between light and dark themes.
+User Profile
+Add and edit user details including a profile picture.
+Persistent storage for user details until edited.
+Task List
+View all tasks with their status.
+Buttons to quickly edit or delete tasks.
+
+Installation and Setup:
+Prerequisites
+Node.js (version 18+ recommended)
+React Native CLI or Expo CLI
+Android Studio (for Android emulation)
+A text editor like VS Code
+
+Steps to Install:
+Clone the repository
+Install dependencies
+Run the app
+
+Dependencies:
+@react-native-community/datetimepicker: For selecting date and time.
+@react-navigation/native: Navigation library for managing screens.
+@react-navigation/stack: For stack-based navigation.
+react-native-svg: To display custom SVG logos.
+react-native-async-storage/async-storage: For local storage.
+react-native-vector-icons: For icons used in navigation and UI.
+expo-image-picker: To allow users to upload a profile picture.
+
+File Structure:
+App.js: Main entry point for the app.
+src/screens/: Contains all screen components:
+HomeScreen.js: Home screen with navigation options.
+AddTaskScreen.js: Add new tasks.
+TaskListScreen.js: View tasks with options to edit/delete.
+TaskDetailScreen.js: Edit task details.
+CalendarScreen.js: view tasks.
+SettingsScreen.js: Profile and dark mode toggle.
+src/components/: Reusable components (e.g., SVG logo).
+
+How to Use:
+Home Screen=>
+Navigate to add tasks, view the calendar, or edit profile from the navigation buttons.
+Add Task=>
+Enter task details like name, description, date, and time.
+Save the task to view it in the task list and calendar.
+Task List=>
+View all tasks and their statuses.
+Mark tasks as done or pending.
+Edit or delete tasks as needed.
+Settings=>
+Add or edit your profile.
+Toggle between light and dark modes.
+
+Future Improvements:
+login option
+Add integration with Google Calendar.
+notifications
